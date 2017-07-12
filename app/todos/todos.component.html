@@ -1,0 +1,4 @@
+<div class="todos__content">
+	<todo-form (create)="create($event)"></todo-form>
+	<todo-list [todos]="todos" (delete)="delete($event)" (toggle)="toggle($event)"></todo-list>
+</div>
